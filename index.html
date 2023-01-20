@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <div class="alura">
+                <img src="./imagenes/Property 1=Closed.png" alt="">
+            </div>
+        </header>
+    
+        <main class="principal">
+            <div class="texto">
+                <div>
+                    <textarea placeholder="Ingrese el texto aquí" name="" id="" cols="40" rows="17"></textarea> 
+                </div>
+                <div class="aclaracion">
+                    
+                    <p>
+                        <img src="./imagenes/Vector (1).png" alt=""> 
+                        Solo letras minúsculas y sin acentos.
+                    </p>
+                </div>
+                <div class="inputs">
+                    <input class="encriptar" type="button" value="Encriptar">
+                    <input class="desencriptar" type="button" value="Desencriptar">
+                </div>
+    
+               
+            </div>
+    
+            <div class="codigo">
+                <div class="codificado" style="display:none">
+                    <p class="secreto"></p>
+                    <input class="copiar" type="button" value="Copiar"   >
+                </div>
+                
+                <div class="esconder">
+                    <img class="munieco" src="./imagenes/Muñeco.png" alt="">
+                
+                    <div class="no-mensaje">
+                        <h3>
+                            Ningún mensaje fue encontrado
+                        </h3>
+                        <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+    </div>
+    
+    
+<script src="./script.js"></script>
+</body>
+</html>
+
